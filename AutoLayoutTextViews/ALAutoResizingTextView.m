@@ -123,7 +123,7 @@
 
 - (CGFloat)heightThatFitsContents
 {
-  CGSize size = [self sizeThatFits:self.frame.size];
+  CGSize size = [self contentSize];
   return size.height + self.contentInset.top;
 }
 
